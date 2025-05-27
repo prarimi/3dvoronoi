@@ -26,7 +26,7 @@ export const VoronoiScene = () => {
         </div>
       </div>
 
-      <Canvas camera={{ position: [5, 5, 5], fov: 75 }}>
+      <Canvas camera={{ position: [30, 30, 30], fov: 75 }}>
         <ambientLight intensity={0.5} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
         <VoronoiMesh numPoints={numPoints} />
