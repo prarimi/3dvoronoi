@@ -18,7 +18,7 @@ export default defineConfig({  base: '/3dvoronoi/', // Set base for GitHub Pages
         theme_color: '#242424',
         background_color: '#242424',
         display: 'standalone',
-        start_url: '/%REPLACE_ME%/',
+        start_url: '/3dvoronoi/',
         icons: [
           {
             src: 'vite.svg',
